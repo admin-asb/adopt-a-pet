@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = ({ image, displayText }) => {
-  const type = ''
+  const type = '';
 
   return (
     <div
@@ -34,6 +34,6 @@ const getHeroTitle = (type) => {
     case 'bird':
       return 'Birds';
     default:
-      return 'Find your perfect pet';
+      return 'Test your perfect pet';
   }
 };
